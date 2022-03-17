@@ -1,7 +1,7 @@
 # Project-Starbucks
 
 <h1 align="center">
-    <img alt="Portifolio-WesleiFrança" src="./fotos/foto-Starbucks.png" />
+    <img alt="Portifolio-WesleiFrança" src="./img/foto-Starbucks.png" />
 </h1>
 
 ## 💻 Sobre o projeto
@@ -11,7 +11,7 @@ Esse é um projeto onde brinco com animações utilizando JavaScript.
 ### Sobre o Projeto
 
 <h1>
-    <img width="965px" src="./fotos/Starbucks-github">
+    <img width="965px" src="./img/Starbucks-github.gif">
 </h1>
 
 
@@ -26,7 +26,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ### 📱Rodando a aplicação mobile 
 
 <h1>
-    <img width="965px" src="./fotos/Starbucks-mobile">
+    <img width="965px" src="./img/starbucks-mobile.gif">
 </h1>
 
 ## 📝 Licença
