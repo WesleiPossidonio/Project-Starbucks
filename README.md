@@ -8,6 +8,10 @@
 
 Esse é um projeto onde brinco com animações utilizando JavaScript.
 
+<h3 align="center">
+    <a href="https://s-starbucks-project.netlify.app/">Acessar a demonstração</a>
+<h3 >
+
 ### Sobre o Projeto
 
 <h1>
