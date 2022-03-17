@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Favicon-->
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+    <!--Fonts Links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!--Style Link-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Starbucks</title>
+</head>
+
+<body>
+    <section>
+        <div class="circle"></div>
+
+        <header>
+            <a href="#"><img class="logo" src="/img/logo.png" alt="Logo"></a>
+            <div class="toggle" onclick="toggleMenu()"></div>
+            <ul class="navegation">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Novidades</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+
+            <div class="textBox">
+                <h2>Não é só café <br>é <span>Starbucks</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam rem accusantium saepe error
+                    voluptatibus
+                    labore tenetur mollitia? Soluta animi harum voluptatibus sequi inventore, mollitia debitis, iste
+                    necessitatibus, cumque eum molestiae?</p>
+                <a href="#">Saiba Mais</a>
+            </div>
+            <div class="imgbox">
+                <img src="/img/img1.png" class="starbucks" alt="Foto do café">
+            </div>
+        </div>
+
+
+        <ul class="thumb">
+            <li><img src="/img/thumb1.png" alt="Café 1"
+                    onclick="imgSlider('/img/img1.png'), changeCircleColor('#017143')"></li>
+            <li><img src="/img/thumb2.png" alt="Café 2"
+                    onclick="imgSlider('/img/img2..png'), changeCircleColor('#eb7495')"></li>
+            <li><img src="/img/thumb3.png" alt="Café 3"
+                    onclick="imgSlider('/img/img3..png'), changeCircleColor('#d752b1')"></li>
+        </ul>
+
+        <ul class="sci">
+            <li><a href="#"><img src="/img/facebook.png" alt="facebook"></a></li>
+            <li><a href="#"><img src="/img/twitter.png" alt="twitter"></a></li>
+            <li><a href="#"><img src="/img/instagram.png" alt="instagram"></a></li>
+        </ul>
+    </section>
+</body>
+<script src="script.js"></script>
+
+</html>
